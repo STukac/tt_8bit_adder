@@ -27,7 +27,7 @@ module tt_um_example (
     .B (uio_in),
     .Cin (1'b0),
     .C (uo_out),
-    .Cout ();
+    .Cout ()
   );
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
