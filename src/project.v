@@ -26,7 +26,7 @@ module tt_um_example (
     .A (ui_in),
     .B (uio_in),
     .Cin (1'b0),
-    .C (uo_out),
+    .S (uo_out),
     .Cout ()
   );
   // List all unused inputs to prevent warnings
